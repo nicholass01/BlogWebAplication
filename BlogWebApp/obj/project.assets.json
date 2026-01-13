@@ -1023,11 +1023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\BlogWebApp\\BlogWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\nicho\\Projects\\BlogWebAplication\\BlogWebApp\\BlogWebApp.csproj",
       "projectName": "BlogWebApp",
-      "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\BlogWebApp\\BlogWebApp.csproj",
+      "projectPath": "C:\\Users\\nicho\\Projects\\BlogWebAplication\\BlogWebApp\\BlogWebApp.csproj",
       "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\BlogWebApp\\obj\\",
+      "outputPath": "C:\\Users\\nicho\\Projects\\BlogWebAplication\\BlogWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nicho\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1042,11 +1042,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Application\\Blog.Application.csproj": {
-              "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Application\\Blog.Application.csproj"
+            "C:\\Users\\nicho\\Projects\\BlogWebAplication\\Blog.Application\\Blog.Application.csproj": {
+              "projectPath": "C:\\Users\\nicho\\Projects\\BlogWebAplication\\Blog.Application\\Blog.Application.csproj"
             },
-            "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Infrastructure\\Blog.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Infrastructure\\Blog.Infrastructure.csproj"
+            "C:\\Users\\nicho\\Projects\\BlogWebAplication\\Blog.Infrastructure\\Blog.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\nicho\\Projects\\BlogWebAplication\\Blog.Infrastructure\\Blog.Infrastructure.csproj"
             }
           }
         }

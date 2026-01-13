@@ -32,3 +32,15 @@ C:\Users\nicho\Projects\CSharp\Blog\BlogWebAplication\Blog.Domain\obj\Debug\net9
 C:\Users\nicho\Projects\CSharp\Blog\BlogWebAplication\Blog.Domain\obj\Debug\net9.0\refint\Blog.Domain.dll
 C:\Users\nicho\Projects\CSharp\Blog\BlogWebAplication\Blog.Domain\obj\Debug\net9.0\Blog.Domain.pdb
 C:\Users\nicho\Projects\CSharp\Blog\BlogWebAplication\Blog.Domain\obj\Debug\net9.0\ref\Blog.Domain.dll
+C:\Users\nicho\Projects\BlogWebAplication\Blog.Domain\bin\Debug\net9.0\Blog.Domain.deps.json
+C:\Users\nicho\Projects\BlogWebAplication\Blog.Domain\bin\Debug\net9.0\Blog.Domain.dll
+C:\Users\nicho\Projects\BlogWebAplication\Blog.Domain\bin\Debug\net9.0\Blog.Domain.pdb
+C:\Users\nicho\Projects\BlogWebAplication\Blog.Domain\obj\Debug\net9.0\Blog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicho\Projects\BlogWebAplication\Blog.Domain\obj\Debug\net9.0\Blog.Domain.AssemblyInfoInputs.cache
+C:\Users\nicho\Projects\BlogWebAplication\Blog.Domain\obj\Debug\net9.0\Blog.Domain.AssemblyInfo.cs
+C:\Users\nicho\Projects\BlogWebAplication\Blog.Domain\obj\Debug\net9.0\Blog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\nicho\Projects\BlogWebAplication\Blog.Domain\obj\Debug\net9.0\Blog.Domain.sourcelink.json
+C:\Users\nicho\Projects\BlogWebAplication\Blog.Domain\obj\Debug\net9.0\Blog.Domain.dll
+C:\Users\nicho\Projects\BlogWebAplication\Blog.Domain\obj\Debug\net9.0\refint\Blog.Domain.dll
+C:\Users\nicho\Projects\BlogWebAplication\Blog.Domain\obj\Debug\net9.0\Blog.Domain.pdb
+C:\Users\nicho\Projects\BlogWebAplication\Blog.Domain\obj\Debug\net9.0\ref\Blog.Domain.dll

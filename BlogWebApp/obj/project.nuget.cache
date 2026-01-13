@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bUGTm/Ld1bI=",
+  "dgSpecHash": "TE0KU486Jog=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\BlogWebApp\\BlogWebApp.csproj",
+  "projectFilePath": "C:\\Users\\nicho\\Projects\\BlogWebAplication\\BlogWebApp\\BlogWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicho\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\nicho\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",

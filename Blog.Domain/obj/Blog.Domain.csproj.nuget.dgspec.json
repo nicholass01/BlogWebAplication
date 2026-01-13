@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj": {}
+    "C:\\Users\\nicho\\Projects\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj": {
+    "C:\\Users\\nicho\\Projects\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\nicho\\Projects\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj",
         "projectName": "Blog.Domain",
-        "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj",
+        "projectPath": "C:\\Users\\nicho\\Projects\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj",
         "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\obj\\",
+        "outputPath": "C:\\Users\\nicho\\Projects\\BlogWebAplication\\Blog.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicho\\AppData\\Roaming\\NuGet\\NuGet.Config"
