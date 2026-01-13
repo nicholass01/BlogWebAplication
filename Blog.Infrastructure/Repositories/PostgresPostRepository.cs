@@ -22,17 +22,20 @@ public class PostgresPostRepository : IPostRepository
         var posts = await connection.QueryAsync<Post>(new CommandDefinition(
             commandText: @"
                 select 
-                    p.id,
-                    p.author_id as AuthorId,
+                    post.id,
+                    post.author_id as AuthorId,
                     u.name as AuthorName,
-                    p.title,
-                    p.slug,
-                    p.content,
-                    coalesce(p.created_at_utc, p.created_at) as CreatedAtUtc,
-                    coalesce(p.updated_at_utc, p.updated_at) as UpdatedAtUtc,
-                    coalesce(p.published_at_utc, p.published_at) as PublishedAtUtc,
-                    p.is_published as IsPublished
-                from blog.list_published_posts() p\n                join blog.users u on u.id = p.author_id\n                order by coalesce(p.published_at_utc, p.published_at, p.created_at_utc, p.created_at) desc;",
+                    post.title,
+                    post.slug,
+                    post.content,
+                    post.created_at as CreatedAtUtc,
+                    post.updated_at as UpdatedAtUtc,
+                    post.published_at as PublishedAtUtc,
+                    post.is_published as IsPublished
+                from blog.list_published_posts() p
+                join blog.posts post on post.id = p.id
+                join blog.users u on u.id = post.author_id
+                order by coalesce(post.published_at, post.created_at) desc;",
             cancellationToken: cancellationToken));
 
         return posts.ToList();
@@ -44,19 +47,21 @@ public class PostgresPostRepository : IPostRepository
 
         // NÃ£o hÃ¡ function especÃ­fica; consulta direta na tabela.
         return await connection.QuerySingleOrDefaultAsync<Post>(new CommandDefinition(
-                        commandText: @"
+            commandText: @"
                 select 
-                    p.id,
-                    p.author_id as AuthorId,
+                    post.id,
+                    post.author_id as AuthorId,
                     u.name as AuthorName,
-                    p.title,
-                    p.slug,
-                    p.content,
-                    coalesce(p.created_at_utc, p.created_at) as CreatedAtUtc,
-                    coalesce(p.updated_at_utc, p.updated_at) as UpdatedAtUtc,
-                    coalesce(p.published_at_utc, p.published_at) as PublishedAtUtc,
-                    p.is_published as IsPublished
-                from blog.get_post_by_id(@p_id) p\n                join blog.users u on u.id = p.author_id;",
+                    post.title,
+                    post.slug,
+                    post.content,
+                    post.created_at as CreatedAtUtc,
+                    post.updated_at as UpdatedAtUtc,
+                    post.published_at as PublishedAtUtc,
+                    post.is_published as IsPublished
+                from blog.get_post_by_id(@p_id) p
+                join blog.posts post on post.id = p.id
+                join blog.users u on u.id = post.author_id;",
             parameters: new { p_id = id },
             cancellationToken: cancellationToken));
     }
@@ -68,17 +73,19 @@ public class PostgresPostRepository : IPostRepository
         return await connection.QuerySingleOrDefaultAsync<Post>(new CommandDefinition(
             commandText: @"
                 select 
-                    p.id,
-                    p.author_id as AuthorId,
+                    post.id,
+                    post.author_id as AuthorId,
                     u.name as AuthorName,
-                    p.title,
-                    p.slug,
-                    p.content,
-                    p.is_published as IsPublished,
-                    coalesce(p.published_at_utc, p.published_at) as PublishedAtUtc,
-                    coalesce(p.created_at_utc, p.created_at) as CreatedAtUtc,
-                    coalesce(p.updated_at_utc, p.updated_at) as UpdatedAtUtc
-                from blog.get_post_by_slug(@p_slug) p\n                join blog.users u on u.id = p.author_id;",
+                    post.title,
+                    post.slug,
+                    post.content,
+                    post.is_published as IsPublished,
+                    post.published_at as PublishedAtUtc,
+                    post.created_at as CreatedAtUtc,
+                    post.updated_at as UpdatedAtUtc
+                from blog.get_post_by_slug(@p_slug) p
+                join blog.posts post on post.id = p.id
+                join blog.users u on u.id = post.author_id;",
             parameters: new { p_slug = slug },
             cancellationToken: cancellationToken));
     }
