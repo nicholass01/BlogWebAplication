@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ipEthOQWUceRqhDvFnknJQL0UTAfNHtbYLxQp26LSgY=",
+  "Source": "BlogWebApp",
+  "BasePath": "_content/BlogWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

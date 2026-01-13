@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GgxSqYc3hGk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Application\\Blog.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nicho\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\nicho\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\nicho\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.1\\microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
