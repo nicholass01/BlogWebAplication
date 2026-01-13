@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebApp\\BlogWebApp.csproj": {}
+    "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\BlogWebApp\\BlogWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Application\\Blog.Application.csproj": {
+    "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Application\\Blog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Application\\Blog.Application.csproj",
+        "projectUniqueName": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Application\\Blog.Application.csproj",
         "projectName": "Blog.Application",
-        "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Application\\Blog.Application.csproj",
+        "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Application\\Blog.Application.csproj",
         "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Application\\obj\\",
+        "outputPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicho\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Domain\\Blog.Domain.csproj": {
-                "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Domain\\Blog.Domain.csproj"
+              "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj": {
+                "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Domain\\Blog.Domain.csproj": {
+    "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Domain\\Blog.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj",
         "projectName": "Blog.Domain",
-        "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Domain\\Blog.Domain.csproj",
+        "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj",
         "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Domain\\obj\\",
+        "outputPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicho\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -140,14 +140,14 @@
         }
       }
     },
-    "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Infrastructure\\Blog.Infrastructure.csproj": {
+    "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Infrastructure\\Blog.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Infrastructure\\Blog.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Infrastructure\\Blog.Infrastructure.csproj",
         "projectName": "Blog.Infrastructure",
-        "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Infrastructure\\Blog.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Infrastructure\\Blog.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicho\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -162,11 +162,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Application\\Blog.Application.csproj": {
-                "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Application\\Blog.Application.csproj"
+              "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Application\\Blog.Application.csproj": {
+                "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Application\\Blog.Application.csproj"
               },
-              "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Domain\\Blog.Domain.csproj": {
-                "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Domain\\Blog.Domain.csproj"
+              "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj": {
+                "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Domain\\Blog.Domain.csproj"
               }
             }
           }
@@ -228,14 +228,14 @@
         }
       }
     },
-    "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebApp\\BlogWebApp.csproj": {
+    "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\BlogWebApp\\BlogWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebApp\\BlogWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\BlogWebApp\\BlogWebApp.csproj",
         "projectName": "BlogWebApp",
-        "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebApp\\BlogWebApp.csproj",
+        "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\BlogWebApp\\BlogWebApp.csproj",
         "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebApp\\obj\\",
+        "outputPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\BlogWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicho\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -250,11 +250,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Application\\Blog.Application.csproj": {
-                "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Application\\Blog.Application.csproj"
+              "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Application\\Blog.Application.csproj": {
+                "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Application\\Blog.Application.csproj"
               },
-              "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Infrastructure\\Blog.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\Blog.Infrastructure\\Blog.Infrastructure.csproj"
+              "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Infrastructure\\Blog.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\nicho\\Projects\\CSharp\\Blog\\BlogWebAplication\\Blog.Infrastructure\\Blog.Infrastructure.csproj"
               }
             }
           }
